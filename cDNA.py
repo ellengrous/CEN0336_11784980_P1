@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+#Importando biblioteca sys
 import sys
 
 # Verificando se foram passados todos os argumentos
@@ -38,3 +41,8 @@ if cds1.startswith('GT') and cds1.endswith('AG') and cds2.startswith('GT') and c
 else:
     print(
         f"As sequências: {cds1 + cds2 + cds3} CDS não começam com 'GT' e terminam com 'AG'.")
+
+
+
+#Para testar, utilizar a sequência: CGTCGTCGCCGCCGCCGCCATGTCGGGAGGTGGTGTGATGTGTGAGCCGACGAAAAGTAAAAGAAGCGGGGAACAACGACTGCCGCATCTACGTGTAAAAAAACGAAAAAAAAAAAAAAAAAAAA
+#E utilizar as coordenadas: n1: 20; n2: 39; n3: 47; n4: 56; n5: 64; n6: 98

@@ -1,5 +1,7 @@
-#Importando sys para receber os valores do terminal
-#Importando math para fazer o calculo de raiz quadrada
+#!/usr/bin/env python3
+
+#Importando biblioteca sys para receber os valores do terminal
+#Importando biblioteca math para fazer o calculo de raiz quadrada
 import sys
 import math
 
