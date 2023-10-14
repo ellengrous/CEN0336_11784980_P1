@@ -29,11 +29,12 @@ coordenadas = list(map(int, coordenadas))
 cds1 = sequencia_dna[coordenadas[0]:coordenadas[1]]
 cds2 = sequencia_dna[coordenadas[2]:coordenadas[3]]
 cds3 = sequencia_dna[coordenadas[4]:coordenadas[5]]
-
+#
 
 # Verifique se as sequências CDS começam com 'GT' e terminam com 'AG'
 if cds1.startswith('GT') and cds1.endswith('AG') and cds2.startswith('GT') and cds2.endswith('AG') and cds3.startswith('GT') and cds3.endswith('AG'):
     # Imprimindo a sequência resultante da junção das CDS 1, CDS 2 e CDS 3
     print(cds1 + cds2 + cds3)
 else:
-    print(f"As sequências: {cds1 + cds2 + cds3} CDS não começam com 'GT' e terminam com 'AG'.")
+    print(
+        f"As sequências: {cds1 + cds2 + cds3} CDS não começam com 'GT' e terminam com 'AG'.")
